@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    position: relative;
+    height: 100%;
+    display: grid;
+    grid-template-columns: min-content auto;
+    grid-template-rows: auto;
+}
+
+#outliner-panel {
+    font-family: "Roboto Mono";
+    padding: 10px;
+    color: #ffffff;
+    background-color: #404040;
+}
+
+#outliner-panel .logo {
+    padding: 5px;
+    border-bottom: 3px solid #ffffff;
+}
+
+#outliner-panel .logo p {
+    text-align: center;
+}
+
+#outliner-panel .logo p:first-child {
+    color: gold;
+    font-size: 20px;
+}
+
+#outliner-panel .logo p:last-child {
+    font-size: 15px;
+}
+
+#outliner-panel .outliner-body {
+    padding: 5px;
+}
+
+#outliner-panel .outliner-body a {
+    cursor: pointer;
+}
+
+#outliner-panel .outliner-body a:hover {
+    text-decoration: underline;
+}
+
+.content-wrap {
+    position: relative;
+    overflow-y: auto;
+}
+
+.content {
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: min-content auto min-content;
+}
+
+.content header {
+    display: grid;
+    grid-template-columns: auto min-content;
+    padding: 10px;
+    border-bottom: 2px solid #000;
+}
+
+.content header nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.content header nav a, .content header nav a:link, .content header nav a:visited {
+    color: #000;
+    text-decoration: none;
+}
+
+footer {
+    padding: 5px;
+    background-color: #2e2e2e;
+}
+
+footer p {
+    color: #ffffff;
+    text-align: center;
+}

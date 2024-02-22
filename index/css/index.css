@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto Mono";
+}
+
+html {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    position: relative;
+    height: 100%;
+    display: grid;
+    grid-template-rows: min-content auto min-content;
+}
+
+header {
+    background-color: #2e2e2e;
+}
+
+header .logo {
+    width: fit-content;
+    padding: 5px;
+}
+
+header .logo p {
+    text-align: center;
+}
+
+header .logo p:first-child {
+    color: gold;
+    font-size: 20px;
+}
+
+header .logo p:last-child {
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.content-wrap {
+    display: grid;
+    grid-template-columns: 250px auto;
+}
+
+#manual-panel {
+    position: relative;
+    padding: 10px;
+    overflow-y: auto;
+}
+
+#manual-panel .manual-panel-title {
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+    border-bottom: 2px solid #00000080;
+}
+
+#manual-panel .manual-list {
+    position: absolute;
+    max-height: 100%;
+}
+
+.content {
+    padding: 10px;
+}
+
+.content a {
+    color: #08c;
+    text-decoration: none
+}
+
+.content a:hover {
+    color: #00a3f5;
+    text-decoration: none
+}
+
+.content h1, .content h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.content ul, .content ol {
+    padding-left: 30px;
+}
+
+footer {
+    padding: 5px;
+    background-color: #2e2e2e;
+}
+
+footer p {
+    color: #ffffff;
+    text-align: center;
+}

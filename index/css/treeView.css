@@ -1,0 +1,60 @@
+.tree-view {
+    font-size: 15px;
+}
+
+.tree-view li {
+    list-style: none;
+}
+
+.tree-view ul {
+    padding-left: 9px;
+}
+
+/* tree leaf */
+.tree-view li > a {
+    display: block;
+    cursor: pointer;
+    margin-bottom: 8px;
+    text-decoration: none;
+    color: #000;
+}
+
+.tree-view li > a:link {
+    text-decoration: none;
+    color: #000;
+}
+
+.tree-view li > a:visited {
+    text-decoration: none;
+    color: #000;
+}
+
+.tree-view li > a:hover {
+    background-color: #9d9d9d;
+}
+
+/* tree的中間節點 */
+/* span是中間節點的文字 */
+.tree-view li > span {
+    display: block;
+    cursor: pointer;
+    margin-bottom: 8px;
+}
+
+.tree-view li > span:hover {
+    background-color: #9d9d9d;
+}
+
+/* 開啟時 */
+.tree-view li > span::before {
+    content: "-";
+    color: #ff7b7b;
+    font-weight: 900;
+}
+
+/* 關閉時 */
+.tree-view li.closed > span::before {
+    content: "+";
+    color: #08c;
+    font-weight: 900;
+}

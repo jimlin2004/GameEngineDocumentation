@@ -44,6 +44,8 @@ body {
 }
 
 #outliner-panel .outliner-body {
+    display: flex;
+    flex-direction: column;
     padding: 5px;
 }
 
@@ -61,11 +63,13 @@ body {
 }
 
 .content {
-    position: absolute;
-    width: 100%;
-    min-height: 100%;
+    position: relative;
     display: grid;
     grid-template-rows: min-content auto min-content;
+    height: 100%;
+    /* grid預設min-width: auto，會使得overflow有不同行為 */
+    min-width: 0;
+    min-height: 0;
 }
 
 .content header {
@@ -83,6 +87,11 @@ body {
 .content header nav a, .content header nav a:link, .content header nav a:visited {
     color: #000;
     text-decoration: none;
+}
+
+.content .markdown-viewer {
+    position: relative;
+    min-width: 0;
 }
 
 footer {

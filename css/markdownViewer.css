@@ -49,12 +49,19 @@
 }
 
 .markdown-viewer pre {
+    position: relative;
     padding: 10px;
     background-color: #303030;
     border-radius: 4px;
     color: #ffffff;
     margin-top: 10px;
     margin-bottom: 10px;
+    overflow-x: auto;
+}
+
+.markdown-viewer pre > code {
+    position: relative;
+    max-width: 100%;
 }
 
 /* 分隔線 */

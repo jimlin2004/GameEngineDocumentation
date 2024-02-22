@@ -6,8 +6,12 @@
 
 ## Component種類
 
+---
+
 ### Basic
+
 + [TransformComponent](./documentation.html?path=Component-TransformComponent)
 
 ### physical
-+ Rigidbody2DComponent
+
++ [Rigidbody2DComponent](./documentation.html?path=Component-Rigidbody2DComponent)

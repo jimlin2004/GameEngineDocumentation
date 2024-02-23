@@ -67,7 +67,7 @@ const urlParams = new URLSearchParams(window.location.search);
 if (urlParams.has("path"))
 {
     let path = urlParams.get("path").split("-");
-    let currPath = "../documentation";
+    let currPath = "./documentation";
     for (let i = 0; i < path.length - 1; ++i)
     {
         currPath += `/${path[i]}`;

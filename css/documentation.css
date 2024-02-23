@@ -47,6 +47,7 @@ body {
     display: flex;
     flex-direction: column;
     padding: 5px;
+    max-width: 250px;
 }
 
 #outliner-panel .outliner-body a {

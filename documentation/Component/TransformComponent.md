@@ -4,11 +4,9 @@
 
 > 描述Actor的Transform相關設定，包含Actor的position、Rotation、scale等。
 
-## Fields
+## Public Field
 
 ---
-
-### public
 
 + position: Vec3
 + rotation: Vec3
@@ -21,7 +19,7 @@
 ### 改變Actor的position
 
 ```lua
----將Actor的position設置(0, 0, 0)
+--- 將Actor的position設置(0, 0, 0)
 actor.position = Vec3(0, 0, 0)
 ```
 

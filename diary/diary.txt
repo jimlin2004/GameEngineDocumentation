@@ -1,0 +1,7 @@
+2024/02/23
+    1. 暫時定下頁面風格
+    Todo list
+        - Event相關未撰寫
+        - KeyCode未撰寫
+        - Input未撰寫
+    存檔紀錄

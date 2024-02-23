@@ -77,9 +77,9 @@
 
 /* 引言 */
 .markdown-viewer blockquote {
-    margin: 16px 0;
+    margin: 8px 0;
     font-size: inherit;
-    padding: 0 15px;
+    padding: 0 8px;
     color: #5c5c5c;
     background-color: #f0f0f0;
     border-left: 4px solid #d6d6d6

@@ -5,3 +5,10 @@
         - KeyCode未撰寫
         - Input未撰寫
     存檔紀錄
+2024/03/11
+    1. 添加Latex的渲染支持
+    Todo list
+        - Event相關未撰寫
+        - KeyCode未撰寫
+        - Input未撰寫
+    存檔紀錄

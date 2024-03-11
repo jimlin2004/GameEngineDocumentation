@@ -31,7 +31,11 @@ function renderMarkdown (markdown)
             else
                 return "";
         }
-    });
+    })
+    .use(texmath, { engine: katex,
+        delimiters: 'dollars',
+        katexOptions: { macros: {"\\RR": "\\mathbb{R}"} } } );
+
     document.querySelectorAll(".markdown-viewer").forEach((markdownDiv) => {
         markdownDiv.innerHTML = md.render(markdown);
     });
